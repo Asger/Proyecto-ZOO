@@ -1,10 +1,21 @@
-.active{
-    border-top: 2px solid #4bbf73;
-    border-bottom: 2px solid #4bbf73;
-    color: #4bbf73 !important;
+.active {
+  border-top: 1px solid #4bbf73;
+  border-bottom: 1px solid #4bbf73;
+  color: #4bbf73 !important;
 }
-.nav-link:hover{
-    border-top: 2px solid #4bbf73;
-    border-bottom: 2px solid #4bbf73;
-    color: #4bbf73 !important;
+.nav-link:hover {
+  border-top: 1px solid #4bbf73;
+  border-bottom: 1px solid #4bbf73;
+  color: #4bbf73 !important;
+}
+.navbar-brand {
+  color: #4bbf73;
+  font-weight: 600;
+  border: 1px solid #4bbf73;
+}
+
+.navbar-brand:hover {
+  color: #4bbf73;
+  border: none;
+  border-bottom: 1px solid #4bbf73;
 }

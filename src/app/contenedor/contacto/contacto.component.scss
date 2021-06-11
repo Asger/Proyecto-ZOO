@@ -1,0 +1,53 @@
+.contact-form {
+  background: url('https://www.wallpapertip.com/wmimgs/90-908399_nature-landscape-wallpaper-hd.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-top: 10%;
+  width: 70%;
+}
+
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+.contact-image {
+  text-align: center;
+}
+
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.container-titulo h3 {
+  margin-bottom: 4%;
+  margin-top: -10%;
+  text-align: center;
+  color: #4bbf73;
+  font-weight: 600;
+}
+.container-titulo{
+    background-color: #0f0f0f9d;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}

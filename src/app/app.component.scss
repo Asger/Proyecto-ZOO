@@ -1,10 +1,8 @@
 .active {
-  border-top: 1px solid #4bbf73;
   border-bottom: 1px solid #4bbf73;
   color: #4bbf73 !important;
 }
 .nav-link:hover {
-  border-top: 1px solid #4bbf73;
   border-bottom: 1px solid #4bbf73;
   color: #4bbf73 !important;
 }
@@ -12,10 +10,10 @@
   color: #4bbf73;
   font-weight: 600;
   border: 1px solid #4bbf73;
+  transition: all 0.3s ease-in;
 }
 
 .navbar-brand:hover {
-  color: #4bbf73;
-  border: none;
-  border-bottom: 1px solid #4bbf73;
-}
+  background-color: #4bbf73;
+  color: #fff;
+} 

@@ -6,7 +6,6 @@ import { AvesComponent } from './contenedor/aves/aves.component';
 import { ContactoComponent } from './contenedor/contacto/contacto.component';
 import { GaleriaComponent } from './contenedor/galeria/galeria.component';
 import { InicioComponent } from './contenedor/inicio/inicio.component';
-import { InsectosComponent } from './contenedor/insectos/insectos.component';
 import { MamiferosComponent } from './contenedor/mamiferos/mamiferos.component';
 import { NosotrosComponent } from './contenedor/nosotros/nosotros.component';
 import { PecesComponent } from './contenedor/peces/peces.component';
@@ -39,9 +38,6 @@ const routes: Routes = [
   },
   {
     path:'anfibios',component:AnfibiosComponent
-  },
-  {
-    path:'insectos',component:InsectosComponent
   },
   {
     path:'reptiles',component:ReptilesComponent

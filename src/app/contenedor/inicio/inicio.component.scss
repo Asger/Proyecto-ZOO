@@ -1,7 +1,11 @@
-.card img{
-    height: 300px;
-    object-fit: cover;
+.card{
+    border: inherit;
+    img{
+        height: 400px;
+        object-fit: cover;
+    }
 }
+
 .introduccion{
     height: 150px;
     font-size: 2em;

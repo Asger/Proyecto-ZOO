@@ -11,7 +11,6 @@ import { NosotrosComponent } from './contenedor/nosotros/nosotros.component';
 import { MamiferosComponent } from './contenedor/mamiferos/mamiferos.component';
 import { PecesComponent } from './contenedor/peces/peces.component';
 import { AvesComponent } from './contenedor/aves/aves.component';
-import { InsectosComponent } from './contenedor/insectos/insectos.component';
 import { AnfibiosComponent } from './contenedor/anfibios/anfibios.component';
 import { ReptilesComponent } from './contenedor/reptiles/reptiles.component';
 
@@ -26,7 +25,6 @@ import { ReptilesComponent } from './contenedor/reptiles/reptiles.component';
     MamiferosComponent,
     PecesComponent,
     AvesComponent,
-    InsectosComponent,
     AnfibiosComponent,
     ReptilesComponent
   ],

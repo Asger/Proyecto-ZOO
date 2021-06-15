@@ -1,0 +1,24 @@
+.card {
+  border: inherit;
+  .card-header {
+    color: #4bbf73;
+  }
+  .text-muted{
+    color: #4bbf73 !important;
+  }
+}
+.img-card {
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+.info {
+  img {
+    max-height: 350px;
+  }
+  .card-header {
+    color: #4bbf73;
+  }
+}

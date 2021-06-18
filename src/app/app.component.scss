@@ -1,19 +1,26 @@
 .active {
-  border-bottom: 1px solid #4bbf73;
   color: #4bbf73 !important;
 }
+.nav-link {
+  background: rgb(50, 226, 91);
+  background: linear-gradient(
+    0deg,
+    rgba(50, 226, 91, 1) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(50, 226, 91, 1) 100%,
+    rgba(14, 221, 62, 1) 100%
+  );
+
+  transition: all 0.3s ease-in;
+
+  font-weight: bold;
+}
 .nav-link:hover {
-  border-bottom: 1px solid #4bbf73;
   color: #4bbf73 !important;
 }
 .navbar-brand {
   color: #4bbf73;
-  font-weight: 600;
+  font-weight: bold;
   border: 1px solid #4bbf73;
-  transition: all 0.3s ease-in;
 }
-
-.navbar-brand:hover {
-  background-color: #4bbf73;
-  color: #fff;
-} 

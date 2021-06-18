@@ -2,6 +2,15 @@
   border: inherit;
   .card-header {
     color: #4bbf73;
+    background: rgb(50, 226, 91);
+    background: linear-gradient(
+      0deg,
+      rgba(50, 226, 91, 1) 0%,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(255, 255, 255, 1) 80%,
+      rgba(50, 226, 91, 1) 100%,
+      rgba(14, 221, 62, 1) 100%
+    );
   }
   .text-muted {
     color: #4bbf73 !important;
@@ -22,5 +31,14 @@
   }
   .card-header {
     color: #4bbf73;
+    background: rgb(50, 226, 91);
+    background: linear-gradient(
+      0deg,
+      rgba(50, 226, 91, 1) 0%,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(255, 255, 255, 1) 80%,
+      rgba(50, 226, 91, 1) 100%,
+      rgba(14, 221, 62, 1) 100%
+    );
   }
 }

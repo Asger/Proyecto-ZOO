@@ -1,13 +1,61 @@
-.card{
-    border: inherit;
-    img{
-        height: 400px;
-        object-fit: cover;
-    }
+.card {
+  border: inherit;
+  img {
+    height: 400px;
+    object-fit: cover;
+  }
 }
 
-.introduccion{
-    height: 150px;
+.introduccion {
+  height: 150px;
+  font-size: 2em;
+  border: 2px solid #4bbf73;
+}
+
+/* ------------------------ Carrusel --------------------------- */
+
+#carouselExampleIndicators .carousel-item.img-1 {
+  background-image: url("https://i.pinimg.com/originals/94/7a/81/947a81995592266b198fc2fde866a002.jpg");
+}
+#carouselExampleIndicators .carousel-item.img-2 {
+  background-image: url("https://www.madridiario.es/fotos/1/210585_SRM_0185.JPG");
+}
+#carouselExampleIndicators .carousel-item.img-3 {
+  background-image: url("https://cronicaglobal.elespanol.com/uploads/s1/10/84/62/00/europapress-2429296-gorilas.jpeg");
+}
+#carouselExampleIndicators .carousel-item {
+  height: 80vh;
+  width: 100%;
+  min-height: 350px;
+  background: no-repeat center center fixed;
+  background-size: cover;
+}
+
+//Para cuando le integre la animación
+/* #carouselExampleIndicators .carousel-inner .carousel-item{
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  
+  } */
+#carouselExampleIndicators .carousel-item .info {
+  color: #ffffff;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2.5rem;
+  //Para cuando le integre la animación
+  /*   animation-duration: 1s;
+      animation-delay: 2s; */
+  h2 {
     font-size: 2em;
-    border: 2px solid #4bbf73;
+    color: #4bbf73;
+  }
+  p {
+    font-size: 1.25em;
+  }
+}
+
+/* ----- Retoques de diseño y colores al carrusel ------ */
+.carousel-indicators .active {
+  background-color: #4bbf73;
 }

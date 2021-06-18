@@ -1,46 +1,172 @@
-<div class="container mt-4">
-    <div class="row my-4">
-        <div class="col-md-12 text-center introduccion d-flex align-items-center justify-content-center">
-            Introducción...
-        </div>
+<div class="container-fluid p-0">
+  <div
+    id="carouselExampleIndicators"
+    class="carousel slide"
+    data-bs-ride="carousel"
+    data-bs-interval="5000"
+  >
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <!-- <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button> -->
     </div>
-    <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-3">
-            <img
-              src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/09/collage-animales-salv-978x652.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-                <button type="button" class="btn btn-outline-success" routerLink="/galeria">Ver galería</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-3">
-            <img
-              src="https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/JD6ELS4RPVBPDLIT22UBO6T4KE.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-                <button type="button" class="btn btn-outline-success" routerLink="/animalesextincion">Ver Animales extintos</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-3">
-            <img
-              src="https://www.lancetalent.com/blog/wp-content/uploads/Disen%CC%83o-sin-ti%CC%81tulo-1-1.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-                <button type="button" class="btn btn-outline-success" routerLink="/contacto">Contactanos</button>
+    <div class="carousel-inner">
+      <div class="carousel-item active img-1">
+        <div class="container h-100 d-md-block">
+          <div class="row align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="info">
+                <h2>Quiénes somos?</h2>
+                <p>
+                  Destinamos esfuerzos al rescate de vida silvestre que nos
+                  entregan las autoridades ambientales y policiales así como la
+                  ciudadanía. Brindamos asistencia a cientos de animales en
+                  situación de crisis cada año.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-success rounded"
+                  routerLink="/sobrenosotros"
+                >
+                  Leer más
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="carousel-item img-2">
+        <div class="container h-100 d-md-block">
+          <div class="row align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="info">
+                <h2>Qué tipos de animales vertebrados existen?</h2>
+                <p>Para empezar existen 5 tipos de vertebrados...</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-success rounded"
+                  routerLink="/mamiferos"
+                >
+                  Leer más
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--       <div class="carousel-item img-3">
+        <div class="container h-100 d-md-block">
+          <div class="row align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="info">
+                <h2>Titulo</h2>
+                <p>Información...</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-success rounded"
+                  routerLink="/animalesextincion"
+                >
+                  Leer más
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </div>
 
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img
+          src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/09/collage-animales-salv-978x652.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <button
+            type="button"
+            class="btn btn-outline-success rounded"
+            routerLink="/galeria"
+          >
+            Ver galería
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img
+          src="https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/JD6ELS4RPVBPDLIT22UBO6T4KE.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <button
+            type="button"
+            class="btn btn-outline-success rounded"
+            routerLink="/animalesextincion"
+          >
+            Ver Animales extintos
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img
+          src="https://www.lancetalent.com/blog/wp-content/uploads/Disen%CC%83o-sin-ti%CC%81tulo-1-1.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <button
+            type="button"
+            class="btn btn-outline-success rounded"
+            routerLink="/contacto"
+          >
+            Contactanos
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

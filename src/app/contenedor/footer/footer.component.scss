@@ -1,0 +1,41 @@
+/* ----- Footer ----- */
+.bg-grey {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+footer {
+  color: #4bbf73;
+}
+
+footer h3 {
+  color: #4bbf73;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+footer ul li {
+  list-style: none;
+  
+}
+footer ul {
+  padding-left: 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: #4bbf73 !important;
+}
+.logo-part {
+  border-right: 1px solid #4bbf73;
+  height: 100%;
+}
+
+.red{
+    border: 2px solid #4bbf73;
+
+    padding: 1rem;
+    color: #4bbf73;
+}

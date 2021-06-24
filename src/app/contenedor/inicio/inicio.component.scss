@@ -1,7 +1,8 @@
 .card {
+  background-color: rgba(0, 0, 0, 0.8);
   border: inherit;
   img {
-    height: 400px;
+    height: 500px;
     object-fit: cover;
   }
 }
@@ -18,7 +19,7 @@
   background-image: url("https://i.pinimg.com/originals/94/7a/81/947a81995592266b198fc2fde866a002.jpg");
 }
 #carouselExampleIndicators .carousel-item.img-2 {
-  background-image: url("https://www.madridiario.es/fotos/1/210585_SRM_0185.JPG");
+  background-image: url("https://todopandas.com/wp-content/uploads/2018/02/panda-50581b69046f4.jpg");
 }
 #carouselExampleIndicators .carousel-item.img-3 {
   background-image: url("https://cronicaglobal.elespanol.com/uploads/s1/10/84/62/00/europapress-2429296-gorilas.jpeg");

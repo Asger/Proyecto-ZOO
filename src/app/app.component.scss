@@ -1,5 +1,5 @@
 .active {
-  color: #4bbf73 !important;
+  color: #3bd872 !important;
 }
 .nav-link {
   background: rgb(50, 226, 91);
@@ -23,4 +23,8 @@
   color: #4bbf73;
   font-weight: bold;
   border: 1px solid #4bbf73;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: rgba(0, 0, 0, 0.698);
 }

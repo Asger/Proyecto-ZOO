@@ -13,6 +13,7 @@ import { PecesComponent } from './contenedor/peces/peces.component';
 import { AvesComponent } from './contenedor/aves/aves.component';
 import { AnfibiosComponent } from './contenedor/anfibios/anfibios.component';
 import { ReptilesComponent } from './contenedor/reptiles/reptiles.component';
+import { FooterComponent } from './contenedor/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ReptilesComponent } from './contenedor/reptiles/reptiles.component';
     PecesComponent,
     AvesComponent,
     AnfibiosComponent,
-    ReptilesComponent
+    ReptilesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

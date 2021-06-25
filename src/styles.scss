@@ -1,8 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background: url(./assets/fondo.jpg)
-    no-repeat center center fixed;
+  background: url(./assets/fondo.jpg) no-repeat center center fixed;
 }
-.card-text{
+.card-text {
   color: black;
+}
+.btn-outline-success:hover{
+  box-shadow: 0 0 5px #4bbf73, 0 0 20px #4bbf73, 0 0 30px #4bbf73;
 }

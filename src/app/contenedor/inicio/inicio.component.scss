@@ -16,16 +16,16 @@
 /* ------------------------ Carrusel --------------------------- */
 
 #carouselExampleIndicators .carousel-item.img-1 {
-  background-image: url("https://i.pinimg.com/originals/94/7a/81/947a81995592266b198fc2fde866a002.jpg");
+  background-image: url("../../../assets/inicio/carrusel\ 1.jpg");
 }
 #carouselExampleIndicators .carousel-item.img-2 {
-  background-image: url("https://todopandas.com/wp-content/uploads/2018/02/panda-50581b69046f4.jpg");
+  background-image: url("../../../assets/inicio/carrusel\ 2.jpg");
 }
 #carouselExampleIndicators .carousel-item.img-3 {
-  background-image: url("https://cronicaglobal.elespanol.com/uploads/s1/10/84/62/00/europapress-2429296-gorilas.jpeg");
+  background-image: url("../../../assets/inicio/carrusel\ 3.jpg");
 }
 #carouselExampleIndicators .carousel-item {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   min-height: 350px;
   background: no-repeat center center fixed;
@@ -59,4 +59,44 @@
 /* ----- Retoques de diseño y colores al carrusel ------ */
 .carousel-indicators .active {
   background-color: #4bbf73;
+}
+.fondo{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* .body-size{
+  height: 300px;
+  max-height: 400px;
+} */
+
+.separacion {
+  margin: auto;
+  background-color: #3cff00;
+  max-width: 275px;
+  height: 5px;
+  margin-top: 1rem;
+}
+.col-md-12{
+  h1,h3{
+    color: #4bbf73;
+  }
+
+}
+
+
+.card-title{
+  color: #4bbf73;
+  
+}
+.card-text{
+  color: #4bbf73;
+  a{
+    color: #4bbf73;
+  }
+}
+.borde-style{
+ /*  border-bottom: 8px solid #4bbf73;
+  border-right: 4px solid #4bbf73; */
+  box-shadow: 0 0 5px #4bbf73,
+                0 0 15px #4bbf73,
+                0 0 30px #4bbf73;
 }

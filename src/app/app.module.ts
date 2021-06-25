@@ -14,6 +14,7 @@ import { AvesComponent } from './contenedor/aves/aves.component';
 import { AnfibiosComponent } from './contenedor/anfibios/anfibios.component';
 import { ReptilesComponent } from './contenedor/reptiles/reptiles.component';
 import { FooterComponent } from './contenedor/footer/footer.component';
+import { InvertebradosComponent } from './contenedor/invertebrados/invertebrados.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FooterComponent } from './contenedor/footer/footer.component';
     AvesComponent,
     AnfibiosComponent,
     ReptilesComponent,
-    FooterComponent
+    FooterComponent,
+    InvertebradosComponent
   ],
   imports: [
     BrowserModule,

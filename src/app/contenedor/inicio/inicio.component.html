@@ -20,12 +20,12 @@
         data-bs-slide-to="1"
         aria-label="Slide 2"
       ></button>
-      <!-- <button
+      <button
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide-to="2"
         aria-label="Slide 3"
-      ></button> -->
+      ></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active img-1">
@@ -71,17 +71,17 @@
           </div>
         </div>
       </div>
-<!--       <div class="carousel-item img-3">
+            <div class="carousel-item img-3">
         <div class="container h-100 d-md-block">
           <div class="row align-items-center h-100">
             <div class="col-12 col-md-9 col-lg-7 col-xl-6">
               <div class="info">
-                <h2>Titulo</h2>
-                <p>Información...</p>
+                <h2>Cuánto sabes de aves?</h2>
+                <p>Sabias que los murciélagos no son aves...</p>
                 <button
                   type="button"
                   class="btn btn-outline-success rounded"
-                  routerLink="/animalesextincion"
+                  routerLink="/aves"
                 >
                   Leer más
                 </button>
@@ -89,7 +89,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
     <button
       class="carousel-control-prev"
@@ -112,12 +112,78 @@
   </div>
 </div>
 
+<div class="container-fluid fondo my-3">
+  <div class="row">
+    <div class="col-md-12 text-center p-3">
+      <div class="my-4">
+        <h1>Vertebrados e Invertebrados</h1>
+        <h3>Conceptos</h3>
+        <hr class="separacion" />
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3 borde-style">
+              <div class="card-body body-size">
+                <h2 class="card-title">Vertebrados</h2>
+                <hr class="separacion" />
+                <p class="card-text mt-3">
+                  Los animales vertebrados son aquellos que tienen una columna
+                  vertebral y que cuentan con una estructura ósea compleja. Un
+                  gran porcentaje de ellos cuenta incluso también con cola. Los
+                  animales vertebrados tienen su cuerpo y su piel cubierta, ya
+                  sea por pelo, en el caso de la mayoría de los animales
+                  terrestres, plumas en caso de las aves, o bien escamas en el
+                  caso de los peces y algunas especies de reptiles.
+                  <a routerLink="/mamiferos">Leer más</a>
+                </p>
+              </div>
+
+              <img
+                src="../../../assets/inicio/lobo.jpg"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3 borde-style">
+              <div class="card-body body-size">
+                <h2 class="card-title">Invertebrados</h2>
+                <hr class="separacion" />
+                <p class="card-text mt-3">
+                  Son todos los animales que carecen de columna vertebral,
+                  aunque tengan un esqueleto interno de mayor o menor rigidez.
+                  Se adaptaron a la totalidad de formas de vida posibles, desde
+                  las que había en el fondo del mar hasta en la alta montaña.
+                  Son de las especies con mayor antigüedad y también de las más
+                  numerosas. Entre los grupos principales están los poríferos
+                  (espongiarios), los cnidarios (celentéreos), los moluscos, los
+                  anélidos, artrópodos y equinodermos.
+                  <a routerLink="/invertebrados">Leer más</a>
+                </p>
+              </div>
+
+              <img
+                src="../../../assets/inicio/mariposa.jpg"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container mt-4">
   <div class="row">
     <div class="col-md-6">
       <div class="card mb-3">
         <img
-          src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/09/collage-animales-salv-978x652.png"
+          src="../../../assets/inicio/galeria.png"
           class="card-img-top"
           alt="..."
         />
@@ -135,7 +201,7 @@
     <div class="col-md-6">
       <div class="card mb-3">
         <img
-          src="https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/JD6ELS4RPVBPDLIT22UBO6T4KE.jpg"
+          src="../../../assets/inicio/mamut.jpg"
           class="card-img-top"
           alt="..."
         />
@@ -150,6 +216,5 @@
         </div>
       </div>
     </div>
-    
   </div>
 </div>

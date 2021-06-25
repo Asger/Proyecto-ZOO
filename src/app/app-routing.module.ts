@@ -6,6 +6,7 @@ import { AvesComponent } from './contenedor/aves/aves.component';
 import { ContactoComponent } from './contenedor/contacto/contacto.component';
 import { GaleriaComponent } from './contenedor/galeria/galeria.component';
 import { InicioComponent } from './contenedor/inicio/inicio.component';
+import { InvertebradosComponent } from './contenedor/invertebrados/invertebrados.component';
 import { MamiferosComponent } from './contenedor/mamiferos/mamiferos.component';
 import { NosotrosComponent } from './contenedor/nosotros/nosotros.component';
 import { PecesComponent } from './contenedor/peces/peces.component';
@@ -43,7 +44,10 @@ const routes: Routes = [
     path:'reptiles',component:ReptilesComponent
   },
   {
-    path:'**', redirectTo:'inicio', pathMatch:'full'
+    path:'invertebrados',component:InvertebradosComponent
+  },
+  {
+    path:'', redirectTo:'inicio', pathMatch:'full'
   }
 ];
 
